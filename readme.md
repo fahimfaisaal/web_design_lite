@@ -1,7 +1,5 @@
 # Web Design Roadmap 2021
-## Web Design
 
-- [ ] UI & UX
 - [ ] HTML (Hyper Text Markup Language)
 - [ ] CSS (Cascading Style Sheet)
 
