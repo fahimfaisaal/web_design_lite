@@ -9,6 +9,7 @@
 - [ ] HTML 5
 - [ ] Semantics
 - [ ] HTML Structure
+- [ ] SVG
 
 ## CSS (Cascading Style Sheet)
 
@@ -17,7 +18,7 @@
 - [ ] Float
 - [ ] Position
 - [ ] Display
-- [ ] Transfrom (2D, 3D)
+- [ ] Transform (2D, 3D)
 - [ ] Flex Box
 - [ ] Grid
 
@@ -25,6 +26,7 @@
 
 - [ ] Attribute Selectors
 - [ ] Nth-Child Selectors
+- [ ] Advanced CSS Selectors
 - [ ] General Siblings
 
 ### Methodologies
