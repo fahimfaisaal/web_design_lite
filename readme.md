@@ -48,4 +48,3 @@
 - [ ] [FRONTEND CHALLENGE](https://piccalil.li/category/front-end%20challenges%20club/)
 - [ ] [FRONTEND MENTOR](https://www.frontendmentor.io/solutions)
 - [ ] [100 DAYS OF CSS CHALLENGE](https://100dayscss.com/)
-
