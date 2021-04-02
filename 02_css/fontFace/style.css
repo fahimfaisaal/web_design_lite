@@ -1,0 +1,52 @@
+@font-face {
+  font-family: BlackgroundsRegular;
+  src: url(./fonts/BlackgroundsRegular.ttf);
+}
+
+@font-face {
+  font-family: IniyaDisplay;
+  src: url(./fonts/IniyaDisplay.otf);
+}
+
+.serif,
+.sans-serif {
+  margin: 10px auto;
+  padding: 50px 25px;
+  text-align: center;
+  width: 70%;
+}
+
+.serif {
+  background-color: skyblue;
+}
+
+.sans-serif {
+  background-color: salmon;
+}
+
+.serif > h1,
+.sans-serif > h1 {
+  font-size: 45px;
+  color: #333300;
+}
+
+.serif > p,
+.sans-serif > p {
+  font-size: 25px;
+}
+
+.serif > h1 {
+  font-family: BlackgroundsRegular, serif;
+}
+
+.serif > p {
+  font-family: serif;
+}
+
+.sans-serif > h1 {
+  font-family: IniyaDisplay, sans-serif;
+}
+
+.sans.serif > p {
+  font-family: sans-serif;
+}
