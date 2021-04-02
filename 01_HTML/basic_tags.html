@@ -5,6 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>basic tags</title>
+    <style>
+      h5 {
+        text-decoration: underline;
+        margin-bottom: 1px;
+      }
+
+      /*Style the code tag */
+      code {
+        display: inline-block;
+        background-color: gainsboro;
+        border-radius: 3px;
+        padding: 2px 3px;
+        color: salmon;
+      }
+    </style>
   </head>
   <body>
     <!-- Headings -->
@@ -96,6 +111,7 @@
       mixed hardware-software intermediaries.
     </p>
 
+    <h5>The address tag</h5>
     <!-- address tag (Default CSS Settings) -> address {
         display: block;
         font-style: italic;
@@ -108,6 +124,7 @@
       USA
     </address>
 
+    <h5>The article tag</h5>
     <!-- article tag (Default CSS Settings) -> article {
         display: block;
     } -->
@@ -119,6 +136,7 @@
       </p>
     </article>
 
+    <h5>The aside tag</h5>
     <!-- aside tag (Default CSS Settings) -> aside {
         display: block;
     } 
@@ -133,6 +151,39 @@
       </p>
     </aside>
 
-    <button type="button">Click Here</button>
+    <h5>The border tag</h5>
+    <!-- b tag (Default CSS Settings) -> b {
+      font-weight: bold;
+    } -->
+    <p>I am <b>Bolder</b></p>
+
+    <h5>The blockquote tag</h5>
+    <!-- blockquote tag (Default CSS Settings) -> blockquote {
+        display: block;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 40px;
+        margin-right: 40px;
+    } 
+     The <blockquote> tag specifies a section that is quoted from another source
+    -->
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+      For 50 years, WWF has been protecting the future of nature. The world's
+      leading conservation organization, WWF works in 100 countries and is
+      supported by 1.2 million members in the United States and close to 5
+      million globally.
+    </blockquote>
+
+    <h5>The Code tag -></h5>
+    <!-- code tag (Default CSS Settings) -> {
+      font-family: monospace;
+    } -->
+    <p>
+      By <code>var</code> <code>let</code> & <code>const</code> we can define a
+      variable in javascript
+    </p>
+    <p>
+      By <code>function</code> keyword we can create a function in javaScript
+    </p>
   </body>
 </html>
