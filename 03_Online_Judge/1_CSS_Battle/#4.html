@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>#4 - CSS Battle</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      main {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+
+        background: #62306d;
+      }
+
+      .first_part,
+      .second_part {
+        display: flex;
+        justify-content: center;
+        height: 50vh;
+      }
+
+      .first_part {
+        align-items: flex-end;
+      }
+
+      .second_part {
+        align-items: flex-start;
+      }
+
+      .box {
+        width: 100px;
+        height: 100px;
+      }
+
+      .box_2,
+      .box_4,
+      .box_6 {
+        background: #f7ec7d;
+      }
+
+      .box_2 {
+        border-radius: 50px 50px 0px 0px;
+      }
+
+      .box_4,
+      .box_6 {
+        border-radius: 0px 0px 50px 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="first_part">
+        <div class="box box_1"></div>
+        <div class="box box_2"></div>
+        <div class="box box_3"></div>
+      </div>
+      <div class="second_part">
+        <div class="box box_4"></div>
+        <div class="box box_5"></div>
+        <div class="box box_6"></div>
+      </div>
+    </main>
+  </body>
+</html>
