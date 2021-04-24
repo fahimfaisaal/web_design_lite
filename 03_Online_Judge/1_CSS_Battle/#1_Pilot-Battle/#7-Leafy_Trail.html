@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>#7 - Leafy Trail</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #0b2429;
+      }
+
+      .container {
+        max-width: 100%;
+        height: 100vh;
+        display: grid;
+        place-items: center;
+
+        position: relative;
+      }
+
+      .leaf {
+        width: 150px;
+        height: 150px;
+
+        position: absolute;
+        border-radius: 100px 0px;
+      }
+
+      .leaf_1 {
+        background-color: #1a4341;
+        left: 75;
+
+        z-index: -1;
+      }
+
+      .leaf_2 {
+        background-color: #998235;
+        left: 125;
+      }
+
+      .leaf_3 {
+        background-color: #f3ac3c;
+        left: 175;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="leaf leaf_1"></div>
+      <div class="leaf leaf_2"></div>
+      <div class="leaf leaf_3"></div>
+    </div>
+  </body>
+</html>
