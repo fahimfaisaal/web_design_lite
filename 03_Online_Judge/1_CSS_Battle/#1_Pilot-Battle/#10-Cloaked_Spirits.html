@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>#10 - Cloaked Spirits</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+        background-color: #62306d;
+      }
+
+      .container {
+        display: flex;
+
+        width: 75%;
+        height: 70vh;
+      }
+
+      .circle_2 {
+        background-color: #f7ec7d;
+        border-radius: 10px 10px 0px 0px;
+      }
+
+      .circle_1,
+      .circle_3 {
+        background: rgb(98, 48, 109);
+        background: linear-gradient(
+          180deg,
+          rgba(98, 48, 109, 1) 55%,
+          rgba(247, 236, 125, 1) 55%
+        );
+      }
+
+      .circle {
+        width: 100px;
+        height: 100px;
+        background-color: #e38f66;
+
+        border: 20px solid #aa445f;
+        border-radius: 50%;
+
+        transform: translateY(60px);
+      }
+
+      .circle_2 > .circle {
+        transform: translateY(-40px);
+        border-color: #e38f66;
+        background-color: #aa445f;
+      }
+
+      .circle_1,
+      .circle_2,
+      .circle_3 {
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="circle_1">
+        <div class="circle"></div>
+      </div>
+      <div class="circle_2">
+        <div class="circle"></div>
+      </div>
+      <div class="circle_3">
+        <div class="circle"></div>
+      </div>
+    </div>
+  </body>
+</html>
