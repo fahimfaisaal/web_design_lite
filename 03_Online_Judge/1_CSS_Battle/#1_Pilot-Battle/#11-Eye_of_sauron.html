@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>#11 Eye of Sauron</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 100vh;
+
+        background-color: #191210;
+      }
+
+      .circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        background-color: #eca03d;
+      }
+
+      .mini_circle {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 25px solid #191210;
+
+        background-color: #84271c;
+      }
+
+      .up_circle,
+      .down_circle {
+        display: grid;
+        place-items: center;
+        width: 100px;
+        height: 100px;
+
+        border-radius: 50%;
+      }
+
+      .down_circle {
+        background: rgb(98, 48, 109);
+        background: linear-gradient(
+          180deg,
+          rgba(98, 48, 109, 0) 50%,
+          rgba(236, 160, 61, 1) 50%
+        );
+        transform: translateX(20px);
+      }
+
+      .up_circle {
+        background: rgb(236, 160, 61);
+        background: linear-gradient(
+          180deg,
+          rgba(236, 160, 61, 1) 50%,
+          rgba(236, 160, 61, 0) 50%
+        );
+        transform: translateX(-20px);
+      }
+
+      .box {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+
+        background-color: #191210;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="down_circle">
+      <div class="box"></div>
+    </div>
+    <div class="circle">
+      <div class="mini_circle"></div>
+    </div>
+    <div class="up_circle">
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
