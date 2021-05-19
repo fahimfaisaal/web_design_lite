@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>#16-Eye of the Tiger</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background: #0b2429;
+        display: grid;
+        place-items: center;
+
+        height: 100vh;
+      }
+
+      .eye {
+        width: 200px;
+        height: 200px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background: #998235;
+        border-radius: 50% 0 50% 0;
+        transform: rotate(45deg);
+      }
+
+      .iris {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 180px;
+        height: 180px;
+        border: 20px solid #0b2429;
+        border-radius: 50%;
+
+        background: #f3ac3c;
+      }
+
+      .iris__dot {
+        width: 50px;
+        height: 50px;
+
+        background: #0b2429;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="eye">
+      <div class="iris">
+        <div class="iris__dot"></div>
+      </div>
+    </div>
+  </body>
+</html>
