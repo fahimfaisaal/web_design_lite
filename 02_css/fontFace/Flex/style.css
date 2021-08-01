@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .item {
+  min-width: 200px;
+  height: 200px;
+  border-radius: 10px;
+
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+} */
+
+.one {
+  background-color: #1abc9c;
+}
+
+.two {
+  background-color: #2980b9;
+}
+
+.three {
+  background-color: #e74c3c;
+}
+
+.four {
+  background-color: #34495e;
+}
+
+.five {
+  background-color: #95a5a6;
+}
+
+.six {
+  background-color: #f39c12;
+}
+
+/* container properties */
+.flex-container {
+  display: flex;
+  height: 100vh;
+
+  /* flex-direction: column; 
+  flex-direction: row-reverse;
+  flex-direction: column-reverse; */
+
+  /* nowrap (default) */
+  /* flex-wrap: wrap;  */
+
+  /* flex-flow: [flex-direction] [flex-wrap]   */
+  flex-flow: row wrap;
+
+  /* alignment main axis */
+  /* justify-content: space-evenly; */
+
+  /* alignment cross axis */
+  /* for align row by row */
+  /* align-items: start; */
+
+  /* for align full content */
+  align-content: center;
+}
+
+/* items properties */
+
+/* order property. by default all items order are 0 */
+/* .one {
+  order: 3;
+  flex-basis: 200px;
+}
+
+.two {
+  order: 2;
+  flex-basis: 200px;
+}
+
+.three {
+  order: 1;
+  flex-basis: 200px;
+}
+
+.item {
+  flex-grow: 1;
+  flex-shrink: 1;
+} */
+
+/*
+    flex property
+    flex: [flex-grow] [flex-shrink] [flex-basis]
+ */
+
+/* Layout */
+.wrap {
+  width: 100%;
+  height: 100vh;
+  border: 20px solid transparent;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+
+  /* background: salmon; */
+  border: 10px solid #cccccc;
+  box-shadow: 0 0 20px rgba(3, 3, 3, 0.3);
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-1 {
+  display: flex;
+  flex-flow: column wrap;
+  flex-basis: 100%;
+}
+
+.a {
+  background-color: #3498db;
+}
+
+.b {
+  background-color: #1abc9c;
+}
+
+.d {
+  background-color: #8e44ad;
+}
+
+.container-2 {
+  display: flex;
+  flex-basis: 100%;
+}
+
+.c {
+  background-color: #e67e22;
+}
+
+.item {
+  flex-grow: 1;
+
+  color: #fff;
+  font-size: 30px;
+  padding: 10px 0px 0px 10px;
+}
+
+@media (min-width: 768px) {
+  .container-1 {
+    flex-direction: row;
+    flex-basis: 60%;
+  }
+
+  .container-2 {
+    flex-basis: 40%;
+  }
+
+  .a,
+  .b {
+    flex-basis: 50%;
+  }
+}
